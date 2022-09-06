@@ -16,7 +16,7 @@ Follow the commands
 
 * Stop port-forwarding
 * change service.yml file
-** Replace selector `run: my-nginx` to `runblue: my-nginx-1`
+  * Replace selector `run: my-nginx` to `runblue: my-nginx-1`
 * kubectl apply -f Blue-green/    
 * kubectl port-forward service/my-nginx 80:80
 * browse localhost in local browser
