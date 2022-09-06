@@ -1,7 +1,7 @@
 # Kubernetes-deployment-strategy
 In this repository we will work on k8s deployment strategy.
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `#f03c15`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `#Testing`
 
 
 # Steps for blue green deployment POC
