@@ -1,9 +1,9 @@
 # Kubernetes-deployment-strategy
 In this repository we will work on k8s deployment strategy.
 
-# Blue-Green Deployemnt
+## Blue-Green Deployemnt
 
-## Steps for blue green deployment POC
+### Steps for blue green deployment POC
 
 Follow the commands
 
@@ -12,7 +12,7 @@ Follow the commands
 3. kubectl port-forward service/my-nginx 80:80
 4. browse localhost in local browser
 
-## How to switch to other deployment
+### How to switch to other deployment
 
 1. Stop port-forwarding
 2. change service.yml file
