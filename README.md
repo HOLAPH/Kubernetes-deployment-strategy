@@ -1,6 +1,9 @@
 # Kubernetes-deployment-strategy
 In this repository we will work on k8s deployment strategy.
 
+```diff
+! Blue Green Deployment
+```
 # Steps for blue green deployment POC
 
 Follow the commands
