@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-nginx
+spec:
+  selector:
+    matchLabels:
+      run: my-nginx
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: my-nginx
+    spec:
+      containers:
+      - name: my-nginx
+        image: pankajholariya/ibonginx:green
+        ports:
+        - containerPort: 80
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-nginx-1
+spec:
+  selector:
+    matchLabels:
+      runblue: my-nginx-1
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        runblue: my-nginx-1
+    spec:
+      containers:
+      - name: my-nginx
+        image: pankajholariya/ibonginx:blue
+        ports:
+        - containerPort: 80
