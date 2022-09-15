@@ -36,3 +36,7 @@ Follow the commands
 * kubectl apply -f Blue-green/    
 * kubectl port-forward service/my-nginx 80:80
 * browse localhost in local browser
+
+## Canary Deployment
+
+*Work still progress*
